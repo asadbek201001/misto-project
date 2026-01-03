@@ -150,10 +150,11 @@ export default function Contact() {
             <Icon src={PhoneImage}/>
             <ContactInfo>Phone</ContactInfo>
           </ContactCard>
-          
+
         </ContactBoxes>
 
         <Form>
+          
             <h1>Contact Form</h1>
           <Input type="text" placeholder="Your Name *" required />
           <Input type="email" placeholder="Your Email *" required />
